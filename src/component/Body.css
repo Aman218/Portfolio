@@ -1,0 +1,96 @@
+.right-sec {
+    width: 500px; /* Set the width you want */
+    height: 400px; /* Set the height you want */
+    position: relative;
+  }
+  
+  .right-sec svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #Bcontainer{
+    justify-content: space-between;
+    margin: 3rem auto;
+    /* margin-top: 8rem; */
+    margin-top: 0;
+    padding-top: 7rem;
+    /* background-color: red; */
+    align-items: center;
+  }
+  @media (max-width:862px) {
+    #Bcontainer{
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 0.8rem;
+      /* background-color: red; */
+    }
+    .left-sec{
+      text-align: center;
+    }
+  }
+  @media (max-width:670px) {
+    .left-sec{
+      font-size: 2rem;
+    }
+  }
+  @media (max-width:540px) {
+    .left-sec{
+      font-size: 1.5rem;
+    }
+    .right-sec{
+      /* background-color: rgb(33, 32, 34); */
+      width: 100%;
+      height: 60vh
+    }
+    /* .right-sec svg{
+            width: 60%;
+            height: 60%;
+    } */
+  }
+  #hand {
+    
+    /* background-color: red; */
+    animation-name: handWave;
+    display: inline-block;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; /* Smooth natural movement */
+    transform-origin: bottom center; /* Ensures rotation happens from the bottom */
+  }
+  
+  @keyframes handWave {
+    0% {
+      transform: rotate(0deg); /* Initial position */
+    }
+    
+    50% {
+      transform: rotate(10deg); /* Back to center */
+    }
+    
+    100% {
+      transform: rotate(0deg); /* Back to center */
+    }
+  }
+  #circle {
+    animation-name: circleMovement;
+    animation-timing-function: linear;
+    animation-duration: 0.9s; /* Time for one full cycle */
+    animation-iteration-count: infinite; /* Repeat the animation infinitely */
+  }
+  
+  @keyframes circleMovement {
+    0% {
+      transform: translateY(0); /* Starting position */
+    }
+    50% {
+      transform: translateY(-20px); /* Move upward (negative Y direction) */
+    }
+    100% {
+      transform: translateY(0); /* Back to starting position */
+    }
+  }
+  

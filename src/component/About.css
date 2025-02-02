@@ -1,0 +1,97 @@
+#aboutContainer{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 7rem;
+    /* background-color: red; */
+    
+   
+}
+.right-about svg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#deascription-about{
+    padding-top: 1rem;
+}
+.right-about{
+    padding-top: 3rem;
+}
+#extra{
+    padding-top: 1rem;
+}
+@media (max-width:964px) {
+    #deascription-about{
+        font-size: 1rem;
+    }
+}
+@media (max-width:900px) {
+    #aboutContainer{
+        flex-direction: column;
+        align-items: center;
+        /* background-color: red; */
+        width: 90%;
+    }
+    .left-about{
+        width: 100%;
+    }
+    .right-about{
+        width: 60%;
+        height: 300px;
+        /* background-color: yellow; */
+        overflow: hidden;
+        padding-top: 0.8rem;
+    
+
+       
+    }
+    .right-about svg{
+        /* padding-top: 0.8rem; */
+        overflow: hidden;
+    }
+}
+@media (max-width:572px) {
+    .right-about{
+        width: 80%;
+        height: 300PX;
+        /* background-color: yellow; */
+        overflow: hidden;
+        padding-top: 0.8rem;
+      
+    }
+    #extra{
+        font-size: 0.8rem;
+    }
+    #deascription-about{
+        font-size: 0.8rem;
+    }
+    .right-about svg{
+      
+        overflow: hidden;
+    }
+}
+@media (max-width:472px) {
+    .right-about{
+        width: 80%;
+        height: 300PX;
+        /* background-color: yellow; */
+        overflow: hidden;
+        padding-top: 0.8rem;
+    }
+    .right-about svg{
+        top: -10px;
+        overflow: hidden;
+
+    }
+}
+
+#footer{
+    margin-top: 1rem;
+}
+@media (min-width:900px) {
+    #footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
