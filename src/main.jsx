@@ -9,6 +9,7 @@ import SelfIntroduction from './component/SelfIntroduction.jsx';
 import Contact from './component/Contact.jsx';
 import Footer from './component/Footer.jsx';
 import About from './component/About.jsx';
+import Project from './component/Project.jsx';
   const appRouter=createBrowserRouter([
     {
       path:'/',
@@ -28,6 +29,11 @@ import About from './component/About.jsx';
         {
           path:'/About',
           element:<About/>
+        },
+        {
+          path:'/Project',
+          element:<Project/>
+
         }
       ],
     },

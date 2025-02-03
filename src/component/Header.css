@@ -61,7 +61,10 @@
     background-color: #ea1c6b; 
     transition: width 0.4s ease; 
 }
-
+#nav-menu-card{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
 #nav1,#nav2,#nav3,#nav4{
     width: 80vw;
     border-radius: 3px;

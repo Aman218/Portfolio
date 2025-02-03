@@ -1,0 +1,104 @@
+#project-container{
+    display: block;
+    padding-top: 7rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: rebeccapurple; */
+}
+
+.project-grid{
+    display: grid;
+    margin: 1rem auto;
+    gap: 1.2rem;
+    padding: 1rem;
+    width: 95%;
+    /* background-color: red; */
+    grid-template-columns: repeat(3,1fr);
+}
+.img-container-grid{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    /* background-color: red; */
+}
+#img1-cont-g{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.project-1,.project-2,.project-3,.project-4,.project-5,.project-6{
+    padding: 0.8rem 1rem;
+    box-shadow: rgba(54, 62, 124, 0.636) 0px 3px 8px;
+    border: 1px solid transparent;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
+.img-container-grid{
+    width: 100%;
+    /* background-color: red; */
+}
+.project-1:hover,.project-2:hover,.project-3:hover,.project-4:hover,.project-5:hover,.project-6:hover{
+    border: 1px solid rgb(223, 206, 206);
+    transform: scale(1.05);
+    z-index: 200;
+    .head-proj {
+        color: #ea1d6b;
+        font-weight: 900;
+    }
+    .github-head{
+        font-weight: 900;
+        color: #ea1d6b;
+    }
+}
+.head-proj{
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
+.github-link{
+    border: 1px solid whitesmoke;
+    padding: 0.3rem 0.9rem;
+    margin: 0.4rem;
+    color: whitesmoke;
+    border-radius: 4px;
+    cursor: pointer;
+    gap: 0.4rem;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+}
+
+@media (max-width:1200px) {
+    .project-grid{
+        width: 100%;
+    }
+}
+@media (max-width:1095px) {
+    .project-grid{
+        width: 100%;
+    }
+    #project-container{
+        width: 95%;
+    }
+}
+@media (max-width:956px) {
+    .project-grid{
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+    }
+    #project-container{
+        width: 95%;
+    }
+}
+@media (max-width:682px) {
+    .project-grid{
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #project-container{
+        width: 95%;
+    }
+}
