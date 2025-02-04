@@ -74,3 +74,7 @@ Portfolio_Project
 |-- package.json
 |-- README.md
 ```
+
+## Acknowledgements
+
+I’d like to acknowledge Soumyajit for inspiring me with his portfolio design. You can check out his portfolio **https://github.com/soumyajit4419**. While I didn't copy any code directly, his work was a great source of inspiration in shaping my own.
