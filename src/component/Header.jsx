@@ -74,10 +74,12 @@ function Header() {
                   <span>Projects</span>
                 </div>
                </Link>
-                <div className=' home-btn flex gap-1 font-[500] items-center'>
+               <Link to='/Resume'>
+               <div className=' home-btn flex gap-1 font-[500] items-center'>
                   <NewspaperIcon style={{ fontSize: 15 }} />
                   <span>Resume</span>
                 </div>
+               </Link>
 
               </div>
               <div id='menu-icon' className='relative text-end'>

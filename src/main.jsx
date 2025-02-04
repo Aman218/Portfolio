@@ -10,6 +10,7 @@ import Contact from './component/Contact.jsx';
 import Footer from './component/Footer.jsx';
 import About from './component/About.jsx';
 import Project from './component/Project.jsx';
+import Resume from './component/Resume.jsx';
   const appRouter=createBrowserRouter([
     {
       path:'/',
@@ -34,6 +35,10 @@ import Project from './component/Project.jsx';
           path:'/Project',
           element:<Project/>
 
+        },
+        {
+          path:'/Resume',
+          element:<Resume/>
         }
       ],
     },

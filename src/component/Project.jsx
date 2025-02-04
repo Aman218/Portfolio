@@ -6,6 +6,8 @@ import img4 from '../assets/Screenshot (95).png';
 import img5 from '../assets/Screenshot (370).png';
 import img6 from '../assets/Screenshot (371).png';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { Link } from 'react-router-dom';
+import Footer from './Footer.jsx';
 function Project() {
     return (
         <>
@@ -26,10 +28,13 @@ function Project() {
                             <p className='text-white text-[0.8rem] text-justify w-[98%]'>A comprehensive YouTube clone that offers users functionalities such as secure authentication, video display, and a full-featured commenting system. The application boasts a responsive user interface, ensuring optimal viewing across various devices. It employs dynamic routing for seamless navigation and integrates a robust backend to manage data efficiently.</p>
                         </div>
                         <div  className='flex justify-center items-center'>
+                            <Link to='https://github.com/Aman218/YouTube_Project'>
                             <div className='flex github-link  items-center'>
                             <GitHubIcon/> 
                             <span className='github-head'>Github</span>
                             </div>
+                            </Link>
+                           
                         </div>
                     </div>
 
@@ -45,10 +50,13 @@ function Project() {
                             <p className='text-white  text-[0.8rem] text-justify w-[98%]'>A basic e-commerce application built using React.js. It demonstrates various React features, including component-based architecture, state management with Redux, React Router for navigation, and dynamic data fetching. The project is designed to showcase a functional, responsive, and user-friendly e-commerce interface.</p>
                         </div>
                         <div  className='flex justify-center items-center'>
+                            <Link to='https://github.com/Aman218/ShoppyGlobe'>
                             <div className='flex gap-[0.4rem] github-link  items-center'>
                             <GitHubIcon/> 
                             <span className='github-head'>Github</span>
                             </div>
+                            </Link>
+                          
                         </div>
                     </div>
                     <div className="project-3  rounded-[7px]">
@@ -65,10 +73,13 @@ function Project() {
                             </p>
                         </div>
                         <div  className='flex justify-center items-center'>
+                            <Link to='https://github.com/Aman218/WeatherApp'>
                             <div className='flex gap-[0.4rem] github-link  items-center'>
                             <GitHubIcon/> 
                             <span className='github-head'>Github</span>
                             </div>
+                            </Link>
+                           
                         </div>
                     </div>
 
@@ -84,10 +95,13 @@ function Project() {
                             <p className='text-white text-[0.8rem] text-justify w-[98%]'> A web-based application that enables users to manage student information efficiently. Users can add new student details, edit existing records, and delete entries as needed. The application utilizes the browser's localStorage to persist data, ensuring that student information remains available even after the browser is closed</p>
                         </div>
                         <div  className='flex justify-center items-center'>
+                            <Link to='https://github.com/Aman218/StudentRegistrationSystem'>
                             <div className='flex gap-[0.4rem] github-link  items-center'>
                             <GitHubIcon/> 
                             <span className='github-head'>Github</span>
                             </div>
+                            </Link>
+                          
                         </div>
                     </div>
 
@@ -103,10 +117,13 @@ function Project() {
                             <p className='text-white text-[0.8rem] text-justify w-[98%]'> A basic To-Do list web application built using React and Vite. The application allows users to add, edit, and delete tasks, helping them manage their daily activities efficiently.The application is designed to be user-friendly, with a clean interface that facilitates easy task management.</p>
                         </div>
                         <div  className='flex justify-center items-center'>
+                            <Link to='https://github.com/Aman218/TodoApp'>
                             <div className='flex gap-[0.4rem] github-link  items-center'>
                             <GitHubIcon/> 
                             <span className='github-head'>Github</span>
                             </div>
+                            </Link>
+                          
                         </div>
                     </div>
                     <div className="project-6  rounded-[7px]">
@@ -123,16 +140,20 @@ function Project() {
                             </p>
                         </div>
                         <div  className='flex justify-center items-center'>
+                            <Link to='https://github.com/Aman218/Restaurant_app'>
                             <div className='flex gap-[0.4rem] github-link  items-center'>
                             <GitHubIcon/> 
                             <span className='github-head'>Github</span>
                             </div>
+                            </Link>
+                          
                         </div>
                     </div>
 
 
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

@@ -1,0 +1,11 @@
+.resumeContainer{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 7rem;
+}
+#anchor-tag{
+    padding: 0.5rem 1rem;
+    background-color: #ea1d6b;
+    font-weight: 600;
+    border-radius: 4px;
+}
