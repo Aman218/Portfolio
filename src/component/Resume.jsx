@@ -1,5 +1,5 @@
 import './Resume.css';
-import resume from '../assets/Aman__Resume.pdf';
+import resume from '../assets/Aman_Resume_Updated.pdf';
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import Footer from './Footer';
 function Resume() {
